@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c0389b3440.js" crossorigin="anonymous"></script>
+</head>
+<body >
+    <div id="header">
+        <div class="container parallax-bg">
+            <nav>
+                <img src="images/logo.png" class="logo" >
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Devloper</p>
+                <h1>Hi, I'm <span>Saniya</span><br>From Kolhapur</h1>
+            </div>
+        </div>
+
+
+    </div>
+     <!-- ---------about----- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.jpg" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1><br>
+                    <p>Hello! I'm a passionate web developer currently pursuing my B.Tech in Computer Science and Engineering.  
+                        I enjoy creating interactive and responsive websites using HTML, CSS, and JavaScript.  
+                        I'm always eager to learn new technologies and take on creative challenges.  
+                        Let's build something awesome together!</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('Hobbies')">Hobbies</p>
+                            <p class="tab-links" onclick="opentab('Experiance')">Experiance</p>
+                            <p class="tab-links" onclick="opentab('Education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="Hobbies">
+                            <ul> 
+                                <li><span>Learning new languages</span><br>Right now learning Spanish on Duolingo </li>
+                                <li><span>Exploring new technologies</span><br>Using MERN Technology for web development</li>
+                                <li><span>Designing interfaces</span><br>Using Html and Css</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Experiance">
+                            <ul> 
+                                <li><span>Jul 2024 - Sep 2024</span><br> Networking Virtual Internship by Juniper Networks</li>
+                                <li><span>Oct 2024 - Dec 2024</span><br>AIML Virtual Internship</li>
+                                <li><span>Jan 2025</span><br>python image automation course by Udemy</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Education">
+                            <ul> 
+                                <li><span>2023-2027</span><br>Engineering at DYPCET in Computer Science</li>
+                                <li><span>2021-2023</span><br>11th-12th at New College,Kolhapur</li>
+                                <li><span>2015-2021</span><br>5th-10th Highschool</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -------Skills--- -->
+     <div id="Skills">
+        <div class="container">
+            <h1 class="sub-title">My Skills</h1>
+            <div class="Skills-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Data Structure and Algorithm</h2><br>
+                    <p>Completed the Data Structure and Algorithm in Cpp using various platforms like leetcode, codechef and hackerrank as well. Now i'm learning Java language</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-web-awesome"></i>
+                    <h2>Web Designing</h2><br>
+                    <p>I am interested in Html and Css.i have created some web designs using this languages and i'm well skilled in it</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Problem Solving</h2><br>
+                    <p>I have solved a lot of problems in Cpp on codechef,hackerrank and leetcode as well.and i have noticed that i worked really well under pressure</p>
+                </div>
+                
+                
+            </div>
+        </div>
+     </div>
+     <!-- --------projects--------- -->
+      <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="project-list">
+                <div class="project">
+                <img src="images/work-1.png" >
+                <div class="layer">
+                    <h3>Blog-Website</h3><br>
+                    <p>My latest project called "BlogVerse-A universe of blog". I have created this project using MERN technology.This project help me to enhance my coding and web development skills</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+                </div>
+                <div class="project">
+                    <img src="images/work-2.png" >
+                    <div class="layer">
+                        <h3>Image-Slider</h3><br>
+                        <p>This is my simple and easy project called "Image-slider",which help to learn basics of html and Css</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                    
+                </div>
+                 <div class="project">
+                        <img src="images/work-3.png" >
+                        <div class="layer">
+                            <h3>Typing Tutor</h3><br>
+                            <p>I have done this project in my first year of engineering to understand basic coding</p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                        
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+      </div>
+<!-- ---------contact------- -->
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>saniyamane2701@gmail.com</p>
+                <p><i class="fa-solid fa-phone-volume"></i>1290456772</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <div>
+                    <a href="images/my-cv.pdf" target="_blank" class="btn btn2">My CV</a>
+                  
+                </div>  
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                   <input type="text" name="Name" placeholder="Your name" required>
+                   <input type="email" name="email" placeholder="Your Email" required>
+                   <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                   <button type="submit" class="btn btn2">Submit</button>
+
+                </form>
+                <span id="msg"> </span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright @ saniya </p>
+    </div>
+ </div>
+
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links")
+        var tabcontents = document.getElementsByClassName("tab-contents")
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemeu.style.right="0";
+
+        }
+
+        function closemenu(){
+            sidemeu.style.right="-200px";
+            
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwAbM7cROZX0YrOArVfmGue80lHTR74mt0PTl1ERk4YCs_7ZV476EgVTSwbEGc8Y3Y2/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = " "
+                },5000)
+                form.reset()
+            
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+    
+</body>
+</html>

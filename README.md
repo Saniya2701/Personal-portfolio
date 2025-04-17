@@ -1,22 +1,30 @@
-Personal-portfolio
+# 💼 Personal Portfolio Website
 
-A responsive personal portfolio website built using HTML, CSS, and JavaScript. Showcases my skills, projects, contact info, and resume with smooth navigation and interactivity.
+This is a personal portfolio website created to showcase my projects, skills, resume, and contact information. It is a responsive, visually appealing, and interactive site built using HTML, CSS, and JavaScript.
 
-🌟 Features
+## 🌟 Features
 
-1.Responsive design for all screen sizes (mobile, desktop)
-2.Sections: Home, About,Skills,Projects, Contact
-3.Downloadable resume
-4.Smooth navigation and interactivity using JavaScript
-5.images for a personalized look
+- Responsive design for all screen sizes (mobile, tablet, desktop)
+- Sections: Home, About Me, Projects, Contact
+- View resume
+- Smooth navigation and interactivity using JavaScript
+- image for a personalized look
 
-🚀 Technologies Used :
 
--HTML
--CSS
--JavaScript
+## 🚀 Technologies Used
 
-#TIP:
--Add your personal photos as background img , user img for professional look of project
+- HTML5
+- CSS3
+- JavaScript
 
-Feel free to reach out to me-https://www.linkedin.com/in/saniya-mane-5906a3289/
+
+
+## 📬 Contact
+
+Feel free to connect on Linkedin : https://www.linkedin.com/in/saniya-mane-5906a3289
+
+---
+
+> Made with ❤️ by Saniya Mane
+
+

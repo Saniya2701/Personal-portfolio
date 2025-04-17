@@ -23,6 +23,16 @@ This is a personal portfolio website created to showcase my projects, skills, re
 
 Feel free to connect on Linkedin : https://www.linkedin.com/in/saniya-mane-5906a3289
 
+
+
+---
+
+### 📄 License
+
+This project is licensed under the [MIT License](LICENSE).  
+© 2025 Saniya Mane. All rights reserved.
+
+
 ---
 
 > Made with ❤️ by Saniya Mane
